@@ -1,0 +1,334 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.mySvg {
+  cursor: pointer;
+}
+
+.elem3 {
+  transform: rotate(34.5deg);
+}
+
+.elem4 {
+  transform: rotate(41.5deg);
+}
+
+.elem5 {
+  transform: rotate(153.5deg);
+}
+
+.elem7 {
+  transform: rotate(138.5deg);
+}
+
+.elem8 {
+  transform: rotate(138.5deg);
+}
+
+/* Forward */
+@keyframes elem1 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 40px;
+  }
+}
+
+@keyframes elem2 {
+  from {
+    height: 0;
+    y: 60px;
+  }
+
+  to {
+    height: 37.25px;
+    y: 22.75px;
+  }
+}
+
+@keyframes elem3 {
+  from {
+    x: 34px;
+    y: 47px;
+    width: 3.2px;
+    height: 0px;
+  }
+
+  to {
+    x: 34px;
+    y: -6px;
+    width: 3.2px;
+    height: 53px;
+  }
+}
+
+@keyframes elem4 {
+  from {
+    x: 15px;
+    y: 17px;
+    width: 3.5px;
+    height: 0px;
+  }
+
+  to {
+    x: 15px;
+    y: -12.9px;
+    width: 3.5px;
+    height: 29.9px;
+  }
+}
+
+@keyframes elem5 {
+  from {
+    x: 5px;
+    y: -62.5px;
+    width: 3.5px;
+    height: 0px;
+  }
+
+  to {
+    x: 5px;
+    y: -62.5px;
+    width: 3.5px;
+    height: 42.5px;
+  }
+}
+
+@keyframes elem6 {
+  from {
+    height: 0;
+    y: 60px;
+  }
+
+  to {
+    height: 37.5px;
+    y: 22.5px;
+  }
+}
+
+@keyframes elem7 {
+  from {
+    x: -15px;
+    y: -44px;
+    width: 3.5px;
+    height: 0px;
+  }
+
+  to {
+    x: -15px;
+    y: -44px;
+    width: 3.5px;
+    height: 10px;
+  }
+}
+
+@keyframes elem8 {
+  from {
+    x: -15px;
+    y: -13.75px;
+    width: 3.5px;
+    height: 0;
+  }
+
+  to {
+    x: -15px;
+    y: -34.75px;
+    width: 3.5px;
+    height: 21px;
+  }
+}
+
+
+.elem1MouseOver {
+  animation: elem1 1s forwards;
+}
+
+.elem6MouseOver {
+  animation: elem6 1s .7s forwards;
+}
+
+.elem7MouseOver {
+  animation: elem7 1s 1.5s forwards;
+}
+
+.elem2MouseOver {
+  animation: elem2 1s forwards;
+}
+
+.elem4MouseOver {
+  animation: elem4 1s .8s forwards;
+}
+
+.elem8MouseOver {
+  animation: elem8 1.2s 1.5s forwards;
+}
+
+.elem3MouseOver {
+  animation: elem3 2.2s forwards;
+}
+
+.elem5MouseOver {
+  animation: elem5 1s .3s forwards;
+}
+
+
+
+
+
+/* Reverse */
+@keyframes elem1Rev {
+  from {
+    width: 40px;
+  }
+
+  to {
+    width: 0;
+  }
+}
+
+@keyframes elem2Rev {
+  from {
+    height: 37.25px;
+    y: 22.75px;
+  }
+
+  to {
+    height: 0;
+    y: 60px;
+  }
+}
+
+@keyframes elem3Rev {
+  from {
+    x: 34px;
+    y: -6px;
+    width: 3.2px;
+    height: 53px;
+  }
+
+  to {
+    x: 34px;
+    y: 47px;
+    width: 3.2px;
+    height: 0px;
+  }
+}
+
+@keyframes elem4Rev {
+  from {
+    x: 15px;
+    y: -12.9px;
+    width: 3.5px;
+    height: 29.9px;
+  }
+
+  to {
+    x: 15px;
+    y: 17px;
+    width: 3.5px;
+    height: 0px;
+  }
+}
+
+@keyframes elem5Rev {
+  from {
+    x: 5px;
+    y: -62.5px;
+    width: 3.5px;
+    height: 42.5px;
+  }
+
+  to {
+    x: 5px;
+    y: -62.5px;
+    width: 3.5px;
+    height: 0px;
+  }
+}
+
+@keyframes elem6Rev {
+  from {
+    height: 37.5px;
+    y: 22.5px;
+  }
+
+  to {
+    height: 0;
+    y: 60px;
+  }
+}
+
+@keyframes elem7Rev {
+  from {
+    x: -15px;
+    y: -44px;
+    width: 3.5px;
+    height: 10px;
+  }
+
+  to {
+    x: -15px;
+    y: -44px;
+    width: 3.5px;
+    height: 0px;
+  }
+}
+
+@keyframes elem8Rev {
+  from {
+    x: -15px;
+    y: -34.75px;
+    width: 3.5px;
+    height: 21px;
+  }
+
+  to {
+    x: -15px;
+    y: -13.75px;
+    width: 3.5px;
+    height: 0;
+  }
+}
+
+.elem1MouseOut {
+  animation: elem1Rev 1s 1.5s forwards;
+}
+
+.elem6MouseOut {
+  animation: elem6Rev 1s .7s forwards;
+}
+
+.elem7MouseOut {
+  animation: elem7Rev 1s forwards;
+}
+
+.elem2MouseOut {
+  animation: elem2Rev 1s 1.5s forwards;
+}
+
+.elem4MouseOut {
+  animation: elem4Rev 1s .8s forwards;
+}
+
+.elem8MouseOut {
+  animation: elem8Rev 1.2s forwards;
+}
+
+.elem3MouseOut {
+  animation: elem3Rev 2.2s forwards;
+}
+
+.elem5MouseOut {
+  animation: elem5Rev 1s .8s forwards;
+}
