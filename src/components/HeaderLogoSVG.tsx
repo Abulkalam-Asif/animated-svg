@@ -53,14 +53,14 @@ export const HeaderLogoSVG = () => {
   const mouseOverHandler = () => {
     setDefaultVals();
 
-    elem1Ref.current!.classList.remove("elem1MouseOut");
-    elem2Ref.current!.classList.remove("elem2MouseOut");
-    elem3Ref.current!.classList.remove("elem3MouseOut");
-    elem4Ref.current!.classList.remove("elem4MouseOut");
-    elem5Ref.current!.classList.remove("elem5MouseOut");
-    elem6Ref.current!.classList.remove("elem6MouseOut");
-    elem7Ref.current!.classList.remove("elem7MouseOut");
-    elem8Ref.current!.classList.remove("elem8MouseOut");
+    elem1Ref.current!.classList.remove("elem1MouseLeave");
+    elem2Ref.current!.classList.remove("elem2MouseLeave");
+    elem3Ref.current!.classList.remove("elem3MouseLeave");
+    elem4Ref.current!.classList.remove("elem4MouseLeave");
+    elem5Ref.current!.classList.remove("elem5MouseLeave");
+    elem6Ref.current!.classList.remove("elem6MouseLeave");
+    elem7Ref.current!.classList.remove("elem7MouseLeave");
+    elem8Ref.current!.classList.remove("elem8MouseLeave");
 
     elem1Ref.current!.classList.add("elem1MouseOver");
     elem2Ref.current!.classList.add("elem2MouseOver");
@@ -84,14 +84,14 @@ export const HeaderLogoSVG = () => {
     elem7Ref.current!.classList.remove("elem7MouseOver");
     elem8Ref.current!.classList.remove("elem8MouseOver");
 
-    elem1Ref.current!.classList.add("elem1MouseOut");
-    elem2Ref.current!.classList.add("elem2MouseOut");
-    elem3Ref.current!.classList.add("elem3MouseOut");
-    elem4Ref.current!.classList.add("elem4MouseOut");
-    elem5Ref.current!.classList.add("elem5MouseOut");
-    elem6Ref.current!.classList.add("elem6MouseOut");
-    elem7Ref.current!.classList.add("elem7MouseOut");
-    elem8Ref.current!.classList.add("elem8MouseOut");
+    elem1Ref.current!.classList.add("elem1MouseLeave");
+    elem2Ref.current!.classList.add("elem2MouseLeave");
+    elem3Ref.current!.classList.add("elem3MouseLeave");
+    elem4Ref.current!.classList.add("elem4MouseLeave");
+    elem5Ref.current!.classList.add("elem5MouseLeave");
+    elem6Ref.current!.classList.add("elem6MouseLeave");
+    elem7Ref.current!.classList.add("elem7MouseLeave");
+    elem8Ref.current!.classList.add("elem8MouseLeave");
   };
 
   return (
@@ -104,82 +104,95 @@ export const HeaderLogoSVG = () => {
       viewBox="0 0 40 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
+      {/* Clip Path for masking */}
+      <clipPath id="clip">
+        <path
+          d="M20.0051 0.0182953L3.03252 19.2587L0.0117188 22.6881V60.0183H40.0117V22.6837L20.0051 0.0182953ZM20.0051 4.71333L30.1351 16.1876L13.9278 39.7292L4.95 21.7766L20.0051 4.71333ZM3.12595 25.2635L11.8635 42.7294L3.12595 55.4162V25.2635ZM5.95544 56.9207L13.4874 45.9818L18.9595 56.9207H5.95544ZM36.1323 58.4695H36.0077V58.2792L36.1323 58.4209V58.4695ZM36.8975 56.9207H22.5231L15.5517 42.9816L32.3062 18.648L36.8975 23.8475V56.9207Z"
+          fill="white"
+        />
+      </clipPath>
+
+      {/* Path of the main logo */}
       <path
         d="M20.0051 0.0182953L3.03252 19.2587L0.0117188 22.6881V60.0183H40.0117V22.6837L20.0051 0.0182953ZM20.0051 4.71333L30.1351 16.1876L13.9278 39.7292L4.95 21.7766L20.0051 4.71333ZM3.12595 25.2635L11.8635 42.7294L3.12595 55.4162V25.2635ZM5.95544 56.9207L13.4874 45.9818L18.9595 56.9207H5.95544ZM36.1323 58.4695H36.0077V58.2792L36.1323 58.4209V58.4695ZM36.8975 56.9207H22.5231L15.5517 42.9816L32.3062 18.648L36.8975 23.8475V56.9207Z"
         fill="white"
       />
-      <rect
-        className="elem1"
-        ref={elem1Ref}
-        x="0"
-        y="56.9"
-        width="0"
-        height="3.1"
-        fill="#13b09a"
-      />
-      <rect
-        className="elem2"
-        ref={elem2Ref}
-        x="0"
-        y="56.9"
-        width="3.1"
-        height="0"
-        fill="#13b09a"
-      />
-      <rect
-        className="elem3"
-        ref={elem3Ref}
-        x="0"
-        y="56.9"
-        width="3.2"
-        height="0"
-        fill="#13b09a"
-      />
-      <rect
-        className="elem4"
-        ref={elem4Ref}
-        x="0"
-        y="56.9"
-        width="3.1"
-        height="0"
-        fill="#13b09a"
-      />
-      <rect
-        className="elem5"
-        ref={elem5Ref}
-        x="0"
-        y="56.9"
-        width="3.1"
-        height="0"
-        fill="#13b09a"
-      />
-      <rect
-        className="elem6"
-        ref={elem6Ref}
-        x="36.9"
-        y="56.9"
-        width="3.1"
-        height="0"
-        fill="#13b09a"
-      />
-      <rect
-        className="elem7"
-        ref={elem7Ref}
-        x="0"
-        y="56.9"
-        width="3.1"
-        height="0"
-        fill="#13b09a"
-      />
-      <rect
-        className="elem8"
-        ref={elem8Ref}
-        x="0"
-        y="56.9"
-        width="3.1"
-        height="0"
-        fill="#13b09a"
-      />
+
+      {/* Rectangles behind the logo, clipped by the logo shape */}
+      <g clipPath="url(#clip)">
+        <rect
+          className="elem1"
+          ref={elem1Ref}
+          x="0"
+          y="56.9"
+          width="0"
+          height="3.1"
+          fill="#13b09a"
+        />
+        <rect
+          className="elem2"
+          ref={elem2Ref}
+          x="0"
+          y="56.9"
+          width="3.1"
+          height="0"
+          fill="#13b09a"
+        />
+        <rect
+          className="elem3"
+          ref={elem3Ref}
+          x="0"
+          y="56.9"
+          width="3.2"
+          height="0"
+          fill="#13b09a"
+        />
+        <rect
+          className="elem4"
+          ref={elem4Ref}
+          x="0"
+          y="56.9"
+          width="3.1"
+          height="0"
+          fill="#13b09a"
+        />
+        <rect
+          className="elem5"
+          ref={elem5Ref}
+          x="0"
+          y="56.9"
+          width="3.1"
+          height="0"
+          fill="#13b09a"
+        />
+        <rect
+          className="elem6"
+          ref={elem6Ref}
+          x="36.9"
+          y="56.9"
+          width="3.1"
+          height="0"
+          fill="#13b09a"
+        />
+        <rect
+          className="elem7"
+          ref={elem7Ref}
+          x="0"
+          y="56.9"
+          width="3.1"
+          height="0"
+          fill="#13b09a"
+        />
+        <rect
+          className="elem8"
+          ref={elem8Ref}
+          x="0"
+          y="56.9"
+          width="3.1"
+          height="0"
+          fill="#13b09a"
+        />
+      </g>
     </svg>
   );
 };

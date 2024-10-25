@@ -52,56 +52,56 @@ body {
   }
 
   to {
-    height: 37.25px;
-    y: 22.75px;
+    height: 42px;
+    y: 18px;
   }
 }
 
 @keyframes elem3 {
   from {
     x: 34px;
-    y: 47px;
+    y: 49px;
     width: 3.2px;
     height: 0px;
   }
 
   to {
     x: 34px;
-    y: -6px;
+    y: -7px;
     width: 3.2px;
-    height: 53px;
+    height: 56px;
   }
 }
 
 @keyframes elem4 {
   from {
     x: 15px;
-    y: 17px;
+    y: 20px;
     width: 3.5px;
     height: 0px;
   }
 
   to {
     x: 15px;
-    y: -12.9px;
+    y: -14px;
     width: 3.5px;
-    height: 29.9px;
+    height: 34px;
   }
 }
 
 @keyframes elem5 {
   from {
     x: 5px;
-    y: -62.5px;
+    y: -64.5px;
     width: 3.5px;
     height: 0px;
   }
 
   to {
     x: 5px;
-    y: -62.5px;
+    y: -64.5px;
     width: 3.5px;
-    height: 42.5px;
+    height: 46.5px;
   }
 }
 
@@ -112,38 +112,38 @@ body {
   }
 
   to {
-    height: 37.5px;
-    y: 22.5px;
+    height: 42px;
+    y: 18px;
   }
 }
 
 @keyframes elem7 {
   from {
     x: -15px;
-    y: -44px;
+    y: -47px;
     width: 3.5px;
     height: 0px;
   }
 
   to {
     x: -15px;
-    y: -44px;
+    y: -47px;
     width: 3.5px;
-    height: 10px;
+    height: 13px;
   }
 }
 
 @keyframes elem8 {
   from {
     x: -15px;
-    y: -13.75px;
+    y: -13px;
     width: 3.5px;
     height: 0;
   }
 
   to {
     x: -15px;
-    y: -34.75px;
+    y: -34px;
     width: 3.5px;
     height: 21px;
   }
@@ -151,35 +151,35 @@ body {
 
 
 .elem1MouseOver {
-  animation: elem1 1s forwards;
+  animation: elem1 .8s forwards;
 }
 
 .elem6MouseOver {
-  animation: elem6 1s .7s forwards;
+  animation: elem6 .8s .7s forwards;
 }
 
 .elem7MouseOver {
-  animation: elem7 1s 1.5s forwards;
+  animation: elem7 .5s 1.3s forwards;
 }
 
 .elem2MouseOver {
-  animation: elem2 1s forwards;
+  animation: elem2 .8s forwards;
 }
 
 .elem4MouseOver {
-  animation: elem4 1s .8s forwards;
+  animation: elem4 .8s .7s forwards;
 }
 
 .elem8MouseOver {
-  animation: elem8 1.2s 1.5s forwards;
+  animation: elem8 .5s 1.3s forwards;
 }
 
 .elem3MouseOver {
-  animation: elem3 2.2s forwards;
+  animation: elem3 2.1s forwards;
 }
 
 .elem5MouseOver {
-  animation: elem5 1s .3s forwards;
+  animation: elem5 .8s .3s forwards;
 }
 
 
@@ -199,8 +199,8 @@ body {
 
 @keyframes elem2Rev {
   from {
-    height: 37.25px;
-    y: 22.75px;
+    height: 42px;
+    y: 18px;
   }
 
   to {
@@ -210,57 +210,60 @@ body {
 }
 
 @keyframes elem3Rev {
-  from {
-    x: 34px;
-    y: -6px;
-    width: 3.2px;
-    height: 53px;
-  }
-
   to {
     x: 34px;
-    y: 47px;
+    y: 49px;
     width: 3.2px;
     height: 0px;
+  }
+
+  from {
+    x: 34px;
+    y: -7px;
+    width: 3.2px;
+    height: 56px;
   }
 }
 
 @keyframes elem4Rev {
+
   from {
     x: 15px;
-    y: -12.9px;
+    y: -14px;
     width: 3.5px;
-    height: 29.9px;
+    height: 34px;
   }
 
   to {
     x: 15px;
-    y: 17px;
+    y: 20px;
     width: 3.5px;
     height: 0px;
   }
 }
 
 @keyframes elem5Rev {
+
   from {
     x: 5px;
-    y: -62.5px;
+    y: -64.5px;
     width: 3.5px;
-    height: 42.5px;
+    height: 46.5px;
   }
 
   to {
     x: 5px;
-    y: -62.5px;
+    y: -64.5px;
     width: 3.5px;
     height: 0px;
   }
 }
 
 @keyframes elem6Rev {
+
   from {
-    height: 37.5px;
-    y: 22.5px;
+    height: 42px;
+    y: 18px;
   }
 
   to {
@@ -270,65 +273,67 @@ body {
 }
 
 @keyframes elem7Rev {
+
   from {
     x: -15px;
-    y: -44px;
+    y: -47px;
     width: 3.5px;
-    height: 10px;
+    height: 13px;
   }
 
   to {
     x: -15px;
-    y: -44px;
+    y: -47px;
     width: 3.5px;
     height: 0px;
   }
 }
 
 @keyframes elem8Rev {
+
   from {
     x: -15px;
-    y: -34.75px;
+    y: -34px;
     width: 3.5px;
     height: 21px;
   }
 
   to {
     x: -15px;
-    y: -13.75px;
+    y: -13px;
     width: 3.5px;
     height: 0;
   }
 }
 
-.elem1MouseOut {
-  animation: elem1Rev 1s 1.5s forwards;
+.elem1MouseLeave {
+  animation: elem1Rev .8s 1.3s forwards;
 }
 
-.elem6MouseOut {
-  animation: elem6Rev 1s .7s forwards;
+.elem6MouseLeave {
+  animation: elem6Rev .8s .7s forwards;
 }
 
-.elem7MouseOut {
-  animation: elem7Rev 1s forwards;
+.elem7MouseLeave {
+  animation: elem7Rev .8s forwards;
 }
 
-.elem2MouseOut {
-  animation: elem2Rev 1s 1.5s forwards;
+.elem2MouseLeave {
+  animation: elem2Rev .8s 1.3s forwards;
 }
 
-.elem4MouseOut {
-  animation: elem4Rev 1s .8s forwards;
+.elem4MouseLeave {
+  animation: elem4Rev .8s .7s forwards;
 }
 
-.elem8MouseOut {
-  animation: elem8Rev 1.2s forwards;
+.elem8MouseLeave {
+  animation: elem8Rev .5 forwards;
 }
 
-.elem3MouseOut {
-  animation: elem3Rev 2.2s forwards;
+.elem3MouseLeave {
+  animation: elem3Rev 2.1s forwards;
 }
 
-.elem5MouseOut {
-  animation: elem5Rev 1s .8s forwards;
+.elem5MouseLeave {
+  animation: elem5Rev .8s .3s forwards;
 }
