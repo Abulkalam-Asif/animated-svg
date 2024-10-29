@@ -109,7 +109,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem4MouseOver {
-        animation: elem4MouseOver .4s .35s forwards;
+        animation: elem4MouseOver .4s .25s forwards;
       }
 
       @keyframes elem5MouseOver {
@@ -127,7 +127,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem5MouseOver {
-        animation: elem5MouseOver .4s .15s forwards;
+        animation: elem5MouseOver .3s .15s forwards;
       }
 
       @keyframes elem6MouseOver {
@@ -141,7 +141,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem6MouseOver {
-        animation: elem6MouseOver .4s .35s forwards;
+        animation: elem6MouseOver .4s .34s forwards;
       }
 
       @keyframes elem7MouseOver {
@@ -159,7 +159,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem7MouseOver {
-        animation: elem7MouseOver .25s .65s forwards;
+        animation: elem7MouseOver .25s .50s forwards;
       }
 
       @keyframes elem8MouseOver {
@@ -233,7 +233,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem1MouseLeave {
-        animation: elem1MouseLeave .4s 0.65s forwards;
+        animation: elem1MouseLeave .3s 0.6s forwards;
       }
 
       @keyframes elem2MouseLeave {
@@ -247,7 +247,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem2MouseLeave {
-        animation: elem2MouseLeave .4s 0.65s forwards;
+        animation: elem2MouseLeave .4s 0.5s forwards;
       }
 
       @keyframes elem3MouseLeave {
@@ -283,7 +283,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem4MouseLeave {
-        animation: elem4MouseLeave .4s .35s forwards;
+        animation: elem4MouseLeave .4s .2s forwards;
       }
 
       @keyframes elem5MouseLeave {
@@ -301,7 +301,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem5MouseLeave {
-        animation: elem5MouseLeave .4s .15s forwards;
+        animation: elem5MouseLeave .3s .37s forwards;
       }
 
       @keyframes elem6MouseLeave {
@@ -315,7 +315,7 @@ export const HeaderLogoSVG = () => {
         }
       }
       .elem6MouseLeave {
-        animation: elem6MouseLeave .4s .35s forwards;
+        animation: elem6MouseLeave .4s .25s forwards;
       }
 
       @keyframes elem7MouseLeave {
@@ -452,8 +452,8 @@ export const HeaderLogoSVG = () => {
         <rect
           className="elem3"
           ref={elem3Ref}
-          x="0"
-          y="56.9"
+          x="34"
+          y="49"
           width="3.2"
           height="0"
           fill="#13b09a"
@@ -461,18 +461,18 @@ export const HeaderLogoSVG = () => {
         <rect
           className="elem4"
           ref={elem4Ref}
-          x="0"
-          y="56.9"
-          width="3.1"
+          x="15"
+          y="20"
+          width="3.5"
           height="0"
           fill="#13b09a"
         />
         <rect
           className="elem5"
           ref={elem5Ref}
-          x="0"
-          y="56.9"
-          width="3.1"
+          x="5"
+          y="-64.5"
+          width="3.5"
           height="0"
           fill="#13b09a"
         />
@@ -488,18 +488,18 @@ export const HeaderLogoSVG = () => {
         <rect
           className="elem7"
           ref={elem7Ref}
-          x="0"
-          y="56.9"
-          width="3.1"
+          x="-15"
+          y="-47"
+          width="3.5"
           height="0"
           fill="#13b09a"
         />
         <rect
           className="elem8"
           ref={elem8Ref}
-          x="0"
-          y="56.9"
-          width="3.1"
+          x="-15"
+          y="-15"
+          width="3.5"
           height="0"
           fill="#13b09a"
         />
